@@ -12,6 +12,12 @@ h3 {
     font-family: Magneto;
     color: red;
     text-align: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+section {
+    width: 100%;
 }
 
 .card-line {
@@ -35,7 +41,14 @@ h3 {
 
 .sub-header {
     background-color: #eeeeee;
+    position: relative;
 }
+
+.sub-header-content {
+    margin-left: 5em;
+    margin-top: 1em;
+    margin-bottom : 1em;
+ }
 
 .grey-word {
     color: grey;
@@ -43,4 +56,14 @@ h3 {
 
 .red-word {
     color: red;
+}
+
+.member {
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+    align: center;
+}
+
+.member-img {
+    border-radius: 50%;
 }
