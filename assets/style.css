@@ -39,6 +39,10 @@ section {
     font-family: Magneto;
 }
 
+.title-nav {
+    font-size: x-large;
+}
+
 .sub-header {
     background-color: #eeeeee;
     position: relative;
@@ -61,7 +65,10 @@ section {
 .member {
     margin-left: 0.4em;
     margin-right: 0.4em;
-    align: center;
+}
+
+.member-center {
+    margin: 0 auto 0 auto;
 }
 
 .member-img {
