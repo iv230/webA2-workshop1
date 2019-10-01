@@ -7,50 +7,104 @@
         <link rel="stylesheet" href="./assets/vendors/bootstrap/css/bootstrap.min.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <link rel="stylesheet" href="./assets/vendors/fontawesome/css/all.min.css" />
+    
+        <link rel="stylesheet" href="./assets/style.css" />
     </head>
 
     <body>
+        <!--Barre suppérieure-->
         <header>
-            <h1><span class="title"><span class="title-super">Super</span> <span class="title-cars">Cars</span></span></h1>
+            <h1><span class="title"><span class="grey-word">Super</span> <span class="red-word">Cars</span></span></h1>
             <a>Véhicules</a>
             <a>Offres et financement</a>
-            <a></a>
+            <a>Equipe</a>
+            <a>Contact</a>
         </header>
 
         <main>
-            <article>
-                <header>
-                    <h1>Titre de l'archive</h1>
+            <!--Cadre titre-->
+            <section class="sub-header">
+                <h1><span class="title"><span class="grey-word">Super</span> <span class="red-word">Cars</span></span></h1>
+                <h2>Concession de <strong class="red-word">Saint-Nazaire</strong></h2>
+                <p>Vous retrouverez chez nous tous les véhicules de la marque <span class="title"><span class="grey-word">Super</span> <span class="red-word">Cars</span></span> entièrement personnalisables.</p>
+            </section>
 
-                    <div>Lorem Ipsum</div>
+            <!--Liste véhicules-->
+            <section>
+                <h3>Nos véhicules</h3>
 
-                    <section>
-                        <h1>Titre de la section</h1>
-
-                        <article>
-                            <h2>Titre de l'article</h2>
-                        </article>
-
-                        <article>
-                                <h2>Titre de l'article</h2>
-                            </article>
-                    </section>
-                </header>
-            </article>
-
-            <aside>
-                <div>
-                    Bloc de contenu
+                <div class="card-line">
+                    <img src="./assets/images/card-boost.jpg" />
+                    <img src="./assets/images/card-boost.jpg" />
+                    <img src="./assets/images/card-boost.jpg" />
+                    <img src="./assets/images/card-boost.jpg" />
+                    <img src="./assets/images/card-boost.jpg" />
+                    <img src="./assets/images/card-boost.jpg" />
                 </div>
 
-                <div>
-                    Bloc de contenu
+                <div class="card-line">
+                    <img src="./assets/images/card-boost.jpg" />
+                    <img src="./assets/images/card-boost.jpg" />
+                    <img src="./assets/images/card-boost.jpg" />
+                    <img src="./assets/images/card-boost.jpg" />
+                    <img src="./assets/images/card-boost.jpg" />
+                    <img src="./assets/images/card-boost.jpg" />
                 </div>
+            </section>
 
-                <div>
-                    Bloc de contenu
+            <!--Offres--> 
+            <section>
+                <h3>Les offres et financements</h3>
+
+                <div class="card-deck">
+                    <div class="card bg-light mb-3" style="max-width: 18rem;">
+                            <div class="card-header">Location longue durée</div>
+                                <div class="card-body">
+                                    <p><span class="card-low">A partir de</span>
+                                    <br/>
+                                    150 € <span class="card-time">/ mois</span></p>
+
+                                    <p>
+                                        Sans apport<br/>
+                                        50 000 km/an<br/>
+                                        Entretien inclus
+                                    </p>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="card bg-light mb-3" style="max-width: 18rem;">
+                            <div class="card-header">Achat</div>
+                                <div class="card-body">
+                                    <p><span class="card-low">A partir de</span>
+                                    <br/>
+                                    19 000 €</p>
+
+                                    <p>
+                                        Garantie 3 ans pièces et main d'oeuvre<br/>
+                                        Court délai de livraison<br/>
+                                        Paiement en plusieurs fois possible
+                                    </p>    
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="card bg-light mb-3" style="max-width: 18rem;">
+                            <div class="card-header">Occasion</div>
+                                <div class="card-body">
+                                        <p><span class="card-low">A partir de</span>
+                                        <br/>
+                                        4 900 €</p>
+    
+                                        <p>
+                                            Nombreuses références<br/>
+                                            Garantie 6 mois
+                                        </p>
+                                </div>
+                            </div>
+                    </div>
                 </div>
-            </aside>
+            </section>
         </main>
     </body>
 </html>

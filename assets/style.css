@@ -1,0 +1,46 @@
+@font-face {
+    src: url(./fonts/MAGNETOB.TTF);
+    font-family: 'Magneto';
+}
+
+header {
+    background-color: #383D41;
+    color: white;
+}
+
+h3 {
+    font-family: Magneto;
+    color: red;
+    text-align: center;
+}
+
+.card-line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card-low {
+    size: small;
+    color: gray;
+}
+
+.card-time {
+    color: gray;
+}
+
+.title {
+    font-family: Magneto;
+}
+
+.sub-header {
+    background-color: #eeeeee;
+}
+
+.grey-word {
+    color: grey;
+}
+
+.red-word {
+    color: red;
+}
