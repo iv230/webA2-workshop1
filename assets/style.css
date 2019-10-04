@@ -20,6 +20,14 @@ section {
     width: 100%;
 }
 
+.carousel-control {
+    color: black ! important;
+}
+
+.carousel-item {
+    width: auto;
+}
+
 .card-line {
     display: flex;
     justify-content: space-between;
